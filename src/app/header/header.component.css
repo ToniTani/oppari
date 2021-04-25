@@ -1,1 +1,12 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+#navigation-bar-container {
+  margin: 10px auto;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  #navigation-bar-container {
+    width: 50%;
+  }
+}

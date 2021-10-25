@@ -1,43 +1,9 @@
-.overlay{position:absolute;background-color: #060b83;height:100%;width:100%;top:0;left:0;opacity:.4}
-header .tophead{
-  margin-top: 120px;
-}
-.crossline{
-  z-index: 10;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  border-width: 0 0 35vh 100vw;
-  border-style: solid;
-  border-color: transparent transparent #ffffff transparent;
-}
-.banner-heading {
-  animation-name: anim;
-  animation-duration: 2s;
-}
 
-.banner-par {
-  animation-name: anim;
-  animation-duration: 2s;
-  animation-delay: .5s;
-  animation-fill-mode: backwards;
+.about {
+  background-color: #384457
 }
-
-.banner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+.bi-type-underline {
+  width: 200px;
+  border: 3px solid #eee;
+  margin: auto;
 }
-@keyframes anim {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-

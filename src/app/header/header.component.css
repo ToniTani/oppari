@@ -1,14 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-#navigation-bar-container {
-  margin: 10px auto;
-  border-radius: 10px;
-}
-@media (min-width: 768px) {
-  #navigation-bar-container {
-    width: 10%;
-  }
 
   .navbar-nav > li{
     padding-left:10px;
@@ -25,10 +17,6 @@
   /* hide close when burger shown */
 
 
-  .overlay{position:absolute;background-color: #060b83;height:100%;width:100%;top:0;left:0;opacity:.4}
-  header .tophead{
-    margin-top: 120px;
-  }
   .crossline{
     z-index: 10;
     position: absolute;
@@ -37,6 +25,11 @@
     border-width: 0 0 35vh 100vw;
     border-style: solid;
     border-color: transparent transparent #ffffff transparent;
+  }
+
+  header {
+    height:100vh;
+    background: url("../../assets/tausta2.jpg")no-repeat center center /cover;
   }
 
   .banner-heading {
@@ -68,4 +61,4 @@
       opacity: 1;
     }
   }
-}
+

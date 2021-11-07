@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { SecondpageComponent } from './secondpage/secondpage.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainpageComponent,
-    SecondpageComponent
+    SecondpageComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

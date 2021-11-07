@@ -1,2 +1,45 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.gunsntools {
+  height:100vh;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0, .8)),
+
+  url("../../assets/darkskull.jpg")no-repeat center center /cover;
+}
+.tools {
+  position: relative;
+  height: 50vh;
+}
+.tool {
+  width: 45%;
+  position: absolute;
+  transition: all .8s ease-in-out;
+
+}
+.tool-1 {
+  top: 20%;
+  left: 10%;
+  transform: rotate(-10deg);
+}
+.tool-2 {
+  top: 20%;
+  left: 50%;
+  transform: rotate(40deg);
+}
+.tool-3 {
+  top: 60%;
+  left: 35%;
+  transform: rotate(-90deg);
+}
+.tool-4 {
+  top: 45%;
+  left: 15%;
+  transform: rotate(-30deg);
+}
+
+.tool:hover {
+  transform: scale(2) rotateX(20deg);
+  z-index: 50;
+
+}

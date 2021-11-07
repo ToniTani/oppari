@@ -15,7 +15,9 @@
  .navbar-brand {
    font-family: "Comic Sans MS", cursive;
  }
-  /* hide close when burger shown */
+ .navbar-brand img {
+  animation: skullbeat 2s infinite;
+ }
 
 
   .crossline{
@@ -65,4 +67,31 @@
       opacity: 1;
     }
   }
+  @keyframes skullbeat {
+    0% {
+    transform: scale(1);
+
+  }
+    20% {
+    transform: scale(1.1);
+
+  }
+    40% {
+      transform: scale(1);
+
+    }
+    60% {
+      transform: scale(1.1);
+
+    }
+    80% {
+      transform: scale(1);
+
+    }
+    100% {
+      transform: scale(1);
+
+    }
+}
+
 

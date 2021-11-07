@@ -1,6 +1,8 @@
-
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 .about {
-  background-color: #384457
+  font-family: "Comic Sans MS", cursive;
+  background-color: #171a21
 }
 .underline {
   width: 200px;

@@ -11,8 +11,9 @@
     margin-left:10px;
     margin-right:10px;
   }
- .nav-menu {
-   background: black;
+
+ .navbar-brand {
+   font-family: "Comic Sans MS", cursive;
  }
   /* hide close when burger shown */
 
@@ -29,7 +30,9 @@
 
   header {
     height:100vh;
-    background: url("../../assets/tausta2.jpg")no-repeat center center /cover;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0,0,0, .7)),
+
+      url("../../assets/tausta2.jpg")no-repeat center center /cover;
   }
 
   .banner-heading {
@@ -50,6 +53,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    font-family: "Comic Sans MS", cursive;
   }
   @keyframes anim {
     0% {

@@ -43,3 +43,14 @@
   z-index: 50;
 
 }
+.common-title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px whitesmoke;
+  transition: all .5s;
+  display: inline-block;
+}
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px whitesmoke;
+}

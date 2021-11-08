@@ -1,0 +1,71 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.special-offer {
+  position: relative;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.rotate {
+  perspective: 100rem;
+}
+
+.tool-card {
+  position: relative;
+  box-shadow: 5px 15px 40px #757575;
+  max-width: 420px;
+  overflow: hidden;
+  transition: all .7s;
+}
+
+.back {
+  position: absolute;
+  top: -100%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  transform: rotateY(180deg);
+  transition: top .7s, opacity .3s;
+}
+
+.back-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate:hover .tool-card {
+  transform: rotateY(180deg);
+}
+
+.rotate:hover .back {
+  opacity: 1;
+  top: 0;
+  user-select: auto;
+  pointer-events: auto;
+}
+.common-title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px whitesmoke;
+  transition: all .5s;
+  display: inline-block;
+}
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px whitesmoke;
+}

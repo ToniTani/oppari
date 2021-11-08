@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NgwWowModule } from 'ngx-wow';
+import * as AOS from 'aos';
+
 
 
 @Component({
@@ -9,9 +10,10 @@ import { NgwWowModule } from 'ngx-wow';
 })
 export class MainpageComponent implements OnInit {
 
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    AOS.init();
   }
-
 }

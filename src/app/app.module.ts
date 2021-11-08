@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { SecondpageComponent } from './secondpage/secondpage.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { OfferComponent } from './offer/offer.component';
 
 @NgModule({
   declarations: [
@@ -14,10 +15,12 @@ import { GalleryComponent } from './gallery/gallery.component';
     HeaderComponent,
     MainpageComponent,
     SecondpageComponent,
-    GalleryComponent
+    GalleryComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,
+
 
   ],
   providers: [],

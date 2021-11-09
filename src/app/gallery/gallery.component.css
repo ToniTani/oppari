@@ -1,0 +1,38 @@
+.gallery {
+  background-color: black;
+  margin: 0 auto;
+  padding: 80px 0;
+
+}
+img {
+  max-width: 100%;
+}
+.gallery img {
+  background-color: #9a9a9a;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 5px 15px 40px #757575;
+  cursor: pointer;
+}
+
+
+
+.common-title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px whitesmoke;
+  transition: all .5s;
+  display: inline-block;
+}
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px whitesmoke;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  position: relative;
+}

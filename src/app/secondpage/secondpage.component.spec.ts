@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SecondpageComponent } from './secondpage.component';
+import {CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('SecondpageComponent', () => {
   let component: SecondpageComponent;
@@ -8,7 +9,10 @@ describe('SecondpageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SecondpageComponent ]
+      declarations: [ SecondpageComponent ],
+      schemas: [
+        CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA
+      ]
     })
     .compileComponents();
   });

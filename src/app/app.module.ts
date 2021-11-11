@@ -8,6 +8,8 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { SecondpageComponent } from './secondpage/secondpage.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OfferComponent } from './offer/offer.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { OfferComponent } from './offer/offer.component';
     MainpageComponent,
     SecondpageComponent,
     GalleryComponent,
-    OfferComponent
+    OfferComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
